@@ -25,7 +25,7 @@ S-WIN is a web-based analytics platform developed as a university project. The p
 
 ![Landing page](screenshots/homepage.png)
 
-### Data visualisation
+### Data visualization
 
 ![Data visualisation](screenshots/visualization.png)
 
