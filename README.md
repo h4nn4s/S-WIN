@@ -1,8 +1,58 @@
-# s-win
------------------------------------------------------------------------------------------------------------------
-This is a documentation over the progress of the s-win consulting analytical platform for student coordinators.
------------------------------------------------------------------------------------------------------------------
+# S-WIN
 
-The application is built using Django. With cmd/terminal, locate the folder with manage.py and run a localserver
-'python manage.py runserver'.
+S-WIN is a web-based analytics platform developed as a university project. The purpose of the platform is to analyse labour market data and identify skills that are in high demand, helping universities and educational institutions adapt their programmes to current and future industry needs.
 
+## Features
+
+* Interactive data visualisation
+* Analysis of labour market skill trends
+* Comparison of technical and soft skills
+* Search and filtering functionality
+* Web-based user interface
+
+## Technologies
+
+* Python
+* Django
+* JavaScript
+* HTML
+* CSS
+* SQLite
+
+## Screenshots
+
+### Landing page
+
+![Landing page](screenshots/homepage.png)
+
+### Data visualisation
+
+![Data visualisation](screenshots/visualization.png)
+
+### About page
+
+![About page](screenshots/aboutpage.png)
+
+## Running the project locally
+
+1. Install Django
+
+```bash
+pip install django
+```
+
+2. Start the development server
+
+```bash
+python manage.py runserver
+```
+
+3. Open your browser and navigate to:
+
+```text
+http://127.0.0.1:8000/swinapp/
+```
+
+## Project Background
+
+The project was developed as part of university studies and demonstrates full-stack web development, data visualisation, database integration and basic analytics using labour market data.
